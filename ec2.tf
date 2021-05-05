@@ -103,7 +103,7 @@ resource "aws_nat_gateway" "nat" {
 
 resource "aws_security_group" "sg" {
   vpc_id      = "${aws_vpc.vpc.id}"
-  name = "funguard"
+  name = "bla"
 
   ingress {
       from_port   = 22
